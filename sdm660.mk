@@ -360,7 +360,8 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qcom.usb.sh \
-    init.zenparts.sh
+    init.zenparts.sh \
+    init.spectrum.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -371,7 +372,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.zenparts.rc
+    init.zenparts.rc \
+    init.spectrum.rc
 
 # Seccomp
 PRODUCT_COPY_FILES += \
