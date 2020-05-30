@@ -46,3 +46,8 @@ allow system_app sysfs_fps:file rw_file_perms;
 
 # allow system apps to read battery status
 r_dir_file(system_app, sysfs_battery_supply)
+
+# GPU/CPU Boosts
+set_prop(system_app, boosts_prop);
+get_prop(system_app, boosts_prop);
+allow system_app boosts_prop:property_service set;
