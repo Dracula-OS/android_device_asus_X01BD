@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The Project-Xtended
+# Copyright (C) 2020 ArrowOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,14 +9,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common xtended stuff
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common arrow stuff
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_X01BD
+PRODUCT_NAME := arrow_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA
@@ -35,8 +35,5 @@ BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/relea
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official MSM-Xtended
-XTENDED_BUILD_TYPE := OFFICIAL
-
 # Maintainer
-XTENDED_MAINTAINER := 🔥SonalSingh18🔥
+DEVICE_MAINTAINER := SonalSingh18
