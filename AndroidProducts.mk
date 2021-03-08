@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2020 The Havoc-OS Project
+# Copyright (C) 2020 The dracula-OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_X01BD.mk
+    $(LOCAL_DIR)/dracula_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_X01BD-user \
-    havoc_X01BD-userdebug
+    dracula_X01BD-user \
+    dracula_X01BD-userdebug
