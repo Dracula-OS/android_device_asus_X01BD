@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 Havoc-OS
+# Copyright (C) 2019-2020 Dracula-OS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_X01BD.mk
+    $(LOCAL_DIR)/dracula_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_X01BD-eng \
-    rr_X01BD-user \
-    rr_X01BD-userdebug
+    dracula_X01BD-eng \
+    dracula_X01BD-user \
+    dracula_X01BD-userdebug
